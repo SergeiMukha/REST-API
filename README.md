@@ -26,3 +26,24 @@
     "username": "your username",
     "password": "your pasword"
   }
+
+- Create and Delete Element
+  
+  To create element use post request to
+  
+  ```
+  /api/clothes/create/
+  ```
+  
+  To delete element use post request to
+  
+  ```
+  /api/clothes/delete/
+  ```
+  This functions you must use with data payload in this format:
+  
+  ```
+  {
+    "title": "title of elemnt"
+  }
+  ```
