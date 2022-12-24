@@ -1,11 +1,11 @@
 # REST API Example
 
-- Home page
+- Home page:
 
   ```
   /api/
   ```
-- Elements page
+- Elements page:
 
   ```
   /api/clothes/
@@ -20,14 +20,14 @@
   ```
   /api/auth/register/
   ```
-  With data formatted such as
+  Use data payload in this format:
   ```
   {
     "username": "your username",
     "password": "your pasword"
   }
 
-- Create and Delete Element
+- Create and Delete Element:
   
   To create element use post request to
   
