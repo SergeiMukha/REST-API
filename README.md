@@ -15,6 +15,11 @@
   ```
   /api/auth/login
   ```
+  Or register using post request to 
+  
+  ```
+  /api/auth/register/
+  ```
   With data formatted such as
   ```
   {
